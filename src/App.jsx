@@ -3,17 +3,16 @@ import Header from './Components/Header'
 import Content from './Components/Content'
 import Footer from './Components/Footer'
 import Banner from './Components/Banner'
-import Opentime from './Components/Opentime'
+import Storepic from './Components/Storepic';
 
 const App = () => {
   return (
     <>
     <Header />
+    <Storepic/>
     <Banner />
-    <hr />
     <Content/>
     <Footer />
-    <Opentime/>
     </>
   )
 }
